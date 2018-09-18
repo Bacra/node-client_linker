@@ -12,6 +12,7 @@ A solution to break out of network and OS.
 [![Coveralls][coveralls-image]][coveralls-url]
 [![NPM License][license-image]][npm-url]
 [![Install Size][install-size-image]][install-size-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBacra%2Fnode-clientlinker.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FBacra%2Fnode-clientlinker?ref=badge_shield)
 
 # Install
 
@@ -168,3 +169,7 @@ If you do not modify custom flow and use `callback.next` in flow, the rpc will t
 [license-image]: http://img.shields.io/npm/l/clientlinker.svg
 [install-size-url]: https://packagephobia.now.sh/result?p=clientlinker
 [install-size-image]: https://packagephobia.now.sh/badge?p=clientlinker
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBacra%2Fnode-clientlinker.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBacra%2Fnode-clientlinker?ref=badge_large)
