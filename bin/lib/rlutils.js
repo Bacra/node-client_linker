@@ -4,7 +4,7 @@ var _		= require('lodash');
 var util	= require('util');
 var path	= require('path');
 var chalk	= require('chalk');
-var utils	= require('../../lib/utils');
+var clientlinker = require('clientlinker-core');
 var rlutils	= exports;
 
 var colors = exports.colors = new chalk.constructor();
@@ -21,7 +21,7 @@ function parseAction(str, allMethods)
 		return allMethods[Number(str)-1];
 	else
 	{
-		var clientName = utils.parseAction(str).clientName;
+		var clientName = clientlinker.util.parseAction(str).clientName;
 		if (allMethods.indexOf(clientName+'.*') != -1)
 			return str;
 	}
