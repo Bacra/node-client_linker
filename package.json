@@ -1,6 +1,6 @@
 {
   "name": "clientlinker",
-  "version": "7.3.0",
+  "version": "7.4.0",
   "description": "Linker all clients whether rpc, addon, http request, mock data, local file ...",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   "dependencies": {
     "bluebird": "^3.5.2",
     "chalk": "^2.4.1",
-    "clientlinker-core": "^7.3.0",
+    "clientlinker-core": "^7.4.0",
     "commander": "2.9.0",
     "debug": "^3.1.0",
     "depd": "^1.1.2",
@@ -54,8 +54,5 @@
     "istanbul": "^0.4.5",
     "mkdirp": "^0.5.1",
     "mocha": "^5.2.0"
-  },
-  "optionalDependencies": {
-    "nan-async-example": "^0.1.2"
   }
 }
