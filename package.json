@@ -1,6 +1,13 @@
 {
   "name": "clientlinker",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "test-cov": "lerna run test-cov",
+    "test-travis": "lerna run test-travis"
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
   }
